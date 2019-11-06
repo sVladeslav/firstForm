@@ -1,0 +1,92 @@
+body{
+    background-color: #D47677;
+}
+
+form{
+    margin: 0 auto;
+}
+
+:root{
+    --sizeImage: 50px;
+}
+
+#userLogo{
+    border-radius:50%;
+    height: var(--sizeImage);
+    width:  var(--sizeImage);
+    align-self: center;
+    margin-top: calc( var(--sizeImage) / -2);
+    margin-bottom: 20px;
+}
+
+#labelText{
+    text-align: center;
+}
+
+.mainForm{
+    background-color: #ECECEC;
+    margin:0 auto 20px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #8B7A7A;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+.mainForm a{
+
+    color: #8B7A7A;
+}
+.mainForm>h3{
+    color: #8B7A7A;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.allWindow{
+    position: fixed;
+    left: calc(50% - 150px);
+    top:200px;
+    text-align: center;
+    color: white;
+}
+
+.allWindow > a{
+    color: white;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 20px auto;
+    background-color: #70C5C0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    margin: 10px 0;
+    height: 35px;
+}
+label{
+    display: block;
+}
+
+.inlineBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inlineBox>*{
+
+    vertical-align: center;
+}
+
+.inlineBox>a{
+    margin-left: auto;
+}
+form+span{
+    margin: 20px auto;
+}
